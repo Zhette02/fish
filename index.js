@@ -25,6 +25,14 @@ let fish = {
     '5': {
         name: 'Snail',
         tankSize: 5
+    },
+    '6': {
+        name: 'Angel Fish',
+        tankSize: 500
+    },
+    '7': {
+        name: 'Giant Danios',
+        tankSize: 200
     }
 }
 

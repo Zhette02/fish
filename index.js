@@ -1,5 +1,6 @@
 //create instance of express application
 import express from 'express';
+import cors from 'cors'
 
 let fish = {
     '0': {

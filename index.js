@@ -42,6 +42,10 @@ let fish = {
 const app = express();
 app.use(express.json())
 
+app.use(cors({
+    origin: '*'
+}));
+
 //set the port the application will be running on
 const port = process.env.PORT || 3001;
 
